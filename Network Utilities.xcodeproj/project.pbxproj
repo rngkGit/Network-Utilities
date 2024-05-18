@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD35902C2BEDCB17006F8C6D /* SetMACAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35902B2BEDCB17006F8C6D /* SetMACAddress.swift */; };
 		AD3799B72BE56807007E2AEA /* Network_UtilitiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3799B62BE56807007E2AEA /* Network_UtilitiesApp.swift */; };
 		AD3799B92BE56807007E2AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3799B82BE56807007E2AEA /* ContentView.swift */; };
 		AD3799BB2BE56808007E2AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3799BA2BE56808007E2AEA /* Assets.xcassets */; };
@@ -14,6 +15,21 @@
 		AD3799C92BE56808007E2AEA /* Network_UtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3799C82BE56808007E2AEA /* Network_UtilitiesTests.swift */; };
 		AD3799D32BE56808007E2AEA /* Network_UtilitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3799D22BE56808007E2AEA /* Network_UtilitiesUITests.swift */; };
 		AD3799D52BE56808007E2AEA /* Network_UtilitiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3799D42BE56808007E2AEA /* Network_UtilitiesUITestsLaunchTests.swift */; };
+		AD6116DC2BEC625F002B28C7 /* MainMenuRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6116DB2BEC625F002B28C7 /* MainMenuRightView.swift */; };
+		AD6116DE2BEC6299002B28C7 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6116DD2BEC6299002B28C7 /* MainMenuView.swift */; };
+		AD6116E02BEC648C002B28C7 /* MainMenuDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6116DF2BEC648C002B28C7 /* MainMenuDetailsView.swift */; };
+		AD7C6ED32BF7E1A4007BB94F /* ChangeMACCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C6ED22BF7E1A4007BB94F /* ChangeMACCustom.swift */; };
+		AD7C6ED52BF7E7C9007BB94F /* ChangeMACAddressTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C6ED42BF7E7C9007BB94F /* ChangeMACAddressTop.swift */; };
+		AD80EE262BF81BDB003AEA80 /* OutputTerminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80EE252BF81BDB003AEA80 /* OutputTerminal.swift */; };
+		AD80EE2A2BF82E6D003AEA80 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = AD80EE292BF82E6D003AEA80 /* icon.icns */; };
+		AD9E98AF2BED582300FF6D49 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E98AE2BED582300FF6D49 /* DeviceList.swift */; };
+		AD9E98B32BED65C000FF6D49 /* ChangeMACAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E98B22BED65C000FF6D49 /* ChangeMACAddress.swift */; };
+		AD9E98B62BED6D6700FF6D49 /* ChangeMACRandomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E98B52BED6D6700FF6D49 /* ChangeMACRandomize.swift */; };
+		AD9E98B82BED739300FF6D49 /* CreateRandomMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E98B72BED739300FF6D49 /* CreateRandomMAC.swift */; };
+		ADA230862BF2985E0046D706 /* runCommandWithSudo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA230852BF2985E0046D706 /* runCommandWithSudo.swift */; };
+		ADA2308A2BF2B89A0046D706 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA230892BF2B89A0046D706 /* NetworkInterface.swift */; };
+		ADA2308D2BF2E69B0046D706 /* NetworkInterfaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2308C2BF2E69B0046D706 /* NetworkInterfaceManager.swift */; };
+		ADFA0BEC2BF7D2BB000B37AC /* SharedNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA0BEB2BF7D2BB000B37AC /* SharedNetworkData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +49,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AD5B42522BEEAD9F00D5FA17 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AD3590282BEDC60B006F8C6D /* Network-Utilities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Network-Utilities-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AD35902B2BEDCB17006F8C6D /* SetMACAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMACAddress.swift; sourceTree = "<group>"; };
 		AD3799B32BE56807007E2AEA /* Network Utilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Utilities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3799B62BE56807007E2AEA /* Network_UtilitiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilitiesApp.swift; sourceTree = "<group>"; };
 		AD3799B82BE56807007E2AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +76,21 @@
 		AD3799CE2BE56808007E2AEA /* Network UtilitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network UtilitiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3799D22BE56808007E2AEA /* Network_UtilitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilitiesUITests.swift; sourceTree = "<group>"; };
 		AD3799D42BE56808007E2AEA /* Network_UtilitiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilitiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD6116DB2BEC625F002B28C7 /* MainMenuRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuRightView.swift; sourceTree = "<group>"; };
+		AD6116DD2BEC6299002B28C7 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		AD6116DF2BEC648C002B28C7 /* MainMenuDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuDetailsView.swift; sourceTree = "<group>"; };
+		AD7C6ED22BF7E1A4007BB94F /* ChangeMACCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMACCustom.swift; sourceTree = "<group>"; };
+		AD7C6ED42BF7E7C9007BB94F /* ChangeMACAddressTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMACAddressTop.swift; sourceTree = "<group>"; };
+		AD80EE252BF81BDB003AEA80 /* OutputTerminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTerminal.swift; sourceTree = "<group>"; };
+		AD80EE292BF82E6D003AEA80 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = SOURCE_ROOT; };
+		AD9E98AE2BED582300FF6D49 /* DeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		AD9E98B22BED65C000FF6D49 /* ChangeMACAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMACAddress.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		AD9E98B52BED6D6700FF6D49 /* ChangeMACRandomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMACRandomize.swift; sourceTree = "<group>"; };
+		AD9E98B72BED739300FF6D49 /* CreateRandomMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRandomMAC.swift; sourceTree = "<group>"; };
+		ADA230852BF2985E0046D706 /* runCommandWithSudo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runCommandWithSudo.swift; sourceTree = "<group>"; };
+		ADA230892BF2B89A0046D706 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		ADA2308C2BF2E69B0046D706 /* NetworkInterfaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterfaceManager.swift; sourceTree = "<group>"; };
+		ADFA0BEB2BF7D2BB000B37AC /* SharedNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNetworkData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +141,18 @@
 		AD3799B52BE56807007E2AEA /* Network Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				AD3590282BEDC60B006F8C6D /* Network-Utilities-Info.plist */,
+				ADA230842BF298410046D706 /* Helpers */,
+				ADA2308B2BF2B9150046D706 /* Data */,
+				AD9E98B12BED65AA00FF6D49 /* Quick Functions */,
 				AD3799B62BE56807007E2AEA /* Network_UtilitiesApp.swift */,
 				AD3799B82BE56807007E2AEA /* ContentView.swift */,
+				AD6116DD2BEC6299002B28C7 /* MainMenuView.swift */,
+				AD6116DB2BEC625F002B28C7 /* MainMenuRightView.swift */,
+				AD6116DF2BEC648C002B28C7 /* MainMenuDetailsView.swift */,
+				AD9E98AE2BED582300FF6D49 /* DeviceList.swift */,
 				AD3799BA2BE56808007E2AEA /* Assets.xcassets */,
+				AD80EE292BF82E6D003AEA80 /* icon.icns */,
 				AD3799BF2BE56808007E2AEA /* Network_Utilities.entitlements */,
 				AD3799BC2BE56808007E2AEA /* Preview Content */,
 			);
@@ -129,6 +184,46 @@
 			path = "Network UtilitiesUITests";
 			sourceTree = "<group>";
 		};
+		AD9E98B12BED65AA00FF6D49 /* Quick Functions */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E98B42BED6D4600FF6D49 /* ChangeMACAddress */,
+			);
+			path = "Quick Functions";
+			sourceTree = "<group>";
+		};
+		AD9E98B42BED6D4600FF6D49 /* ChangeMACAddress */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E98B22BED65C000FF6D49 /* ChangeMACAddress.swift */,
+				AD7C6ED42BF7E7C9007BB94F /* ChangeMACAddressTop.swift */,
+				AD7C6ED22BF7E1A4007BB94F /* ChangeMACCustom.swift */,
+				AD9E98B52BED6D6700FF6D49 /* ChangeMACRandomize.swift */,
+				AD9E98B72BED739300FF6D49 /* CreateRandomMAC.swift */,
+				AD35902B2BEDCB17006F8C6D /* SetMACAddress.swift */,
+			);
+			path = ChangeMACAddress;
+			sourceTree = "<group>";
+		};
+		ADA230842BF298410046D706 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ADA230852BF2985E0046D706 /* runCommandWithSudo.swift */,
+				ADA2308C2BF2E69B0046D706 /* NetworkInterfaceManager.swift */,
+				AD80EE252BF81BDB003AEA80 /* OutputTerminal.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ADA2308B2BF2B9150046D706 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ADA230892BF2B89A0046D706 /* NetworkInterface.swift */,
+				ADFA0BEB2BF7D2BB000B37AC /* SharedNetworkData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +234,7 @@
 				AD3799AF2BE56807007E2AEA /* Sources */,
 				AD3799B02BE56807007E2AEA /* Frameworks */,
 				AD3799B12BE56807007E2AEA /* Resources */,
+				AD5B42522BEEAD9F00D5FA17 /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
@@ -193,7 +289,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					AD3799B22BE56807007E2AEA = {
 						CreatedOnToolsVersion = 15.3;
@@ -235,6 +331,7 @@
 			files = (
 				AD3799BE2BE56808007E2AEA /* Preview Assets.xcassets in Resources */,
 				AD3799BB2BE56808007E2AEA /* Assets.xcassets in Resources */,
+				AD80EE2A2BF82E6D003AEA80 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +356,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA230862BF2985E0046D706 /* runCommandWithSudo.swift in Sources */,
+				AD7C6ED52BF7E7C9007BB94F /* ChangeMACAddressTop.swift in Sources */,
+				AD6116E02BEC648C002B28C7 /* MainMenuDetailsView.swift in Sources */,
+				AD7C6ED32BF7E1A4007BB94F /* ChangeMACCustom.swift in Sources */,
+				AD80EE262BF81BDB003AEA80 /* OutputTerminal.swift in Sources */,
 				AD3799B92BE56807007E2AEA /* ContentView.swift in Sources */,
 				AD3799B72BE56807007E2AEA /* Network_UtilitiesApp.swift in Sources */,
+				AD9E98B62BED6D6700FF6D49 /* ChangeMACRandomize.swift in Sources */,
+				AD9E98B32BED65C000FF6D49 /* ChangeMACAddress.swift in Sources */,
+				AD35902C2BEDCB17006F8C6D /* SetMACAddress.swift in Sources */,
+				ADFA0BEC2BF7D2BB000B37AC /* SharedNetworkData.swift in Sources */,
+				AD9E98B82BED739300FF6D49 /* CreateRandomMAC.swift in Sources */,
+				ADA2308A2BF2B89A0046D706 /* NetworkInterface.swift in Sources */,
+				AD9E98AF2BED582300FF6D49 /* DeviceList.swift in Sources */,
+				AD6116DE2BEC6299002B28C7 /* MainMenuView.swift in Sources */,
+				ADA2308D2BF2E69B0046D706 /* NetworkInterfaceManager.swift in Sources */,
+				AD6116DC2BEC625F002B28C7 /* MainMenuRightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +443,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -394,6 +507,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -424,11 +538,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Network Utilities/Preview Content\"";
 				DEVELOPMENT_TEAM = 34DAQAHL6V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Network-Utilities-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,11 +568,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Network Utilities/Preview Content\"";
 				DEVELOPMENT_TEAM = 34DAQAHL6V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Network-Utilities-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,6 +596,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34DAQAHL6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -495,6 +616,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34DAQAHL6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -513,6 +635,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34DAQAHL6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -530,6 +653,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34DAQAHL6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
