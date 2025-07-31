@@ -9,5 +9,5 @@ This is my first sorta completed application not only in swift, but in any progr
 ### Quick Functions
 - Change MAC address on the currently selected interface with random and custom functionality
 
-# License
+## License
 This project is under the MIT license. Please read **LICENSE.md** for more info.
